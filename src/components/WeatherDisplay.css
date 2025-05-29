@@ -1,0 +1,103 @@
+.weather-container {
+  max-width: 700px;
+  margin: 30px auto;
+  background: #a7afb7;
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #222;
+}
+.unit-toggle-btn {
+  padding: 5px 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.unit-toggle-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Main info in one horizontal row */
+.weather-main-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+/* Left side: temp, now, location grouped */
+.temp-now-location {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.temp-now {
+  text-align: right;
+}
+
+.temp {
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.now {
+  font-size: 20px;
+  color: black;
+  margin-top: 4px;
+}
+
+.location {
+  font-size: 22px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Weather icon on right */
+.weather-icon {
+  width: 80px;
+  height: 80px;
+}
+
+/* Weather detail cards in a row */
+.weather-details {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* Each card */
+.detail-card {
+  flex: 1;
+  background: white;
+  border-radius: 10px;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.07);
+}
+
+.icon {
+  font-size: 32px;
+  color: #0077cc;
+}
+
+.detail-value {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0;
+  color: #222;
+}
+
+.detail-label {
+  font-size: 14px;
+  color: #666;
+  margin: 3px 0 0 0;
+}

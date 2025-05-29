@@ -1,0 +1,29 @@
+/* App.css */
+
+/* Make sure html, body, and root take full viewport height */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style only the main app container */
+.app-container {
+  width: 100vw;       /* full viewport width */
+  height: 100vh;      /* full viewport height */
+  background-color: #698b89;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  box-sizing: border-box;
+  color: white;       /* text color for contrast */
+  overflow: hidden;   /* prevent scrollbars */
+}
+
+/* Style the heading */
+h1 {
+  margin-bottom: 1.5rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
