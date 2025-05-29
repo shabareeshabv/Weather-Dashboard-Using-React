@@ -6,6 +6,24 @@ This is a React-based Weather Dashboard app.
 
 Try the app live here: https://weather-dashboard-using-react.vercel.app/
 
+## Tech Stack
+
+- React  
+- Vite (for fast development and build)  
+- ESLint (with recommended rules for React)  
+- @vitejs/plugin-react for React Fast Refresh
+
+---
+
+## How to Run the Project Locally
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/shabareeshabv/Weather-Dashboard-Using-React.git
+cd Weather-Dashboard-Using-React
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
