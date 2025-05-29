@@ -1,3 +1,11 @@
+# Weather Dashboard
+
+This is a React-based Weather Dashboard app.
+
+## Live Demo
+
+Try the app live here: https://weather-dashboard-using-react.vercel.app/
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
